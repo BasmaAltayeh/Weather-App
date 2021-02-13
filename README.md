@@ -45,11 +45,17 @@ When the user is redirected to the results page, the user is still able to refin
 The web app is implemented in a responsive manner, it is meant to be used on different desktop screens as well as mobile screens.
 
 ### Mobile view
-screenShots/landing-page-mobile.png
-screenShots/weather-info-page-mobile.png
+![Image of landing page mobile](https://github.com/BasmaAltayeh/Weather-App/blob/main/screenShots/landing-page-mobile.png)
+![Image of weather info page mobile](https://github.com/BasmaAltayeh/Weather-App/blob/main/screenShots/weather-info-page-mobile.png)
 
 ### Desktop view
-
+![Image of landing page morning](https://github.com/BasmaAltayeh/Weather-App/blob/main/screenShots/landing-page-morning.png?raw=true)
+![Image of landing page afternoon](https://github.com/BasmaAltayeh/Weather-App/blob/main/screenShots/landing-page-afternoon-time.png?raw=true)
+![Image of landing page night](https://github.com/BasmaAltayeh/Weather-App/blob/main/screenShots/landing-page-night.png?raw=true)
+![Image of weather page clear](https://github.com/BasmaAltayeh/Weather-App/blob/main/screenShots/clear.png)
+![Image of weather page cloudy](https://github.com/BasmaAltayeh/Weather-App/blob/main/screenShots/cloudy.png)
+![Image of weather page rainy](https://github.com/BasmaAltayeh/Weather-App/blob/main/screenShots/rain.png)
+![Image of weather page snowy](https://github.com/BasmaAltayeh/Weather-App/blob/main/screenShots/snowy.png)
 
 # Technologies
 1. Bootstrap
