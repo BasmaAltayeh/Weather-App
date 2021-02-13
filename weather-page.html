@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="weather-icons.css">
+
+
+    <title>Weather Page</title>
+</head>
+<body>
+    <div id="bg">
+        <img src="" alt="">
+    </div>
+    <div class="weather-page d-flex flex-column-p ">
+        <div class="p-5 search-card col-lg-3 col-md-8 m-lg-auto m-md-auto city-card mt-md-5">
+            <div class="position-relative w-100 m-auto">
+                <input placeholder="Enter your city" class="pl-2 input-group rounded search m-auto" id="search" autocomplete="off">
+                <div class="position-absolute autocomplete-items" id="list"></div>
+            </div>
+            <button class="btn btn-primary w-70 mt-3 w-100" id="submit">Search</button>
+        </div>
+        <div class="layer p-5 d-flex flex-column justify-content-between col-lg-7 col-md-8 m-md-auto-30 mt-5 mr-5">
+            <div class="d-flex justify-content-around align-items-md-center flex-column-p">
+                <div class="">
+                    <h2 id="city-name" class="mb-1 text-white"></h2>
+                    <h3 id="date" class="mb-3 text-white"></h3>
+                    <div id="weather-icon" class="text-white mb-4 mt-4 transformx-50-p "></div>
+                    <h2 id="weather" class="text-white"></h2>
+                </div>
+                <div>
+                    <p id="temp" class="d-flex mb-3 text-white"></p>
+                </div>
+            </div>
+        <div class="weather-hours d-flex pt-10 flex-wrap justify-content-center"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js" integrity="sha256-eGE6blurk5sHj+rmkfsGYeKyZx3M4bG+ZlFyA7Kns7E=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/algoliasearch@4.5.1/dist/algoliasearch-lite.umd.js"></script>
+    <script src="shared-search.js"></script>
+    <script src="weather-page.js"></script>
+    
+</body>
+</html>
