@@ -45,8 +45,8 @@ When the user is redirected to the results page, the user is still able to refin
 The web app is implemented in a responsive manner, it is meant to be used on different desktop screens as well as mobile screens.
 
 ### Mobile view
-https://github.com/BasmaAltayeh/Weather-App/blob/main/screenShots/landing-page-mobile.png
-https://github.com/BasmaAltayeh/Weather-App/blob/main/screenShots/weather-info-page-mobile.png
+screenShots/landing-page-mobile.png
+screenShots/weather-info-page-mobile.png
 
 ### Desktop view
 
