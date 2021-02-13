@@ -36,6 +36,8 @@ In the top right of the landing page, there's an icon that can redirect you to t
 ## Weather Information in a city
 Once the user searches for a city, they will be redirected to a second page that displays the results. The weather forecast consists of the current temperature in the selected city, plus the temperatures in the coming 15 hours displayed on a 3-hour intervals. The icons are made to reflect the weather status. And the background changes depending on the weather status too. All temperatures are displayed in Celsius.
 
+Weather information is retrieved from Open Weather Map API. Check https://rapidapi.com/community/api/open-weather-map?endpoint=apiendpoint_f719676c-072b-4a2d-ad2e-78f8375ea9c8 for more info.
+
 ## Ability to re-search in the weather results page
 When the user is redirected to the results page, the user is still able to refine their search, using the search box on the side. The user is able to search for another city's weather forecast without having to go back to the landing page.
 
@@ -59,6 +61,8 @@ The web app is implemented in a responsive manner, it is meant to be used on dif
 # Assignment Details
 ## Time Tracking
 I was only able to work on this assignment during the weekends, it took me 23 hours (3.5 days)
+
+## Design Inspiration
 
 ## Author
 Basma Al Tayeh
