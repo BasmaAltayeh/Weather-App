@@ -87,7 +87,8 @@
     left: 0;
     right: 0;
     max-height: 210px;
-    overflow: scroll;
+    overflow-y:scroll;
+    background:white;
 }
   
 .autocomplete-items div {
@@ -192,5 +193,8 @@ position: absolute;
     }
     .transformx-50-p{
         transform: translateX(-50%);
+    }
+    .city-card {
+        margin:0 auto 1.5rem auto !important;
     }
   }

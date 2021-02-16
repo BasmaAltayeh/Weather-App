@@ -2,7 +2,6 @@
 $(document).ready(function(){
     $.getJSON('https://geoip-db.com/json/geoip.php?jsonp=?') 
         .done (function(location) {
-            getCities(location.city, true);
             $('#location').append(`<i class="fas fa-compass bounce text-white" title="Check weather at your location"></i>`)
             $('#location').on('click',function(){
                 goToWeatherPage(location.city)

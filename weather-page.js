@@ -2,7 +2,6 @@
 let cityName = window.location.search;
 if (cityName) {
     cityName = decodeURIComponent(cityName.substr(6, cityName.length-1));
-    console.log(cityName);
     
 } else {
     window.location.replace(`landing-page.html`);
@@ -23,7 +22,6 @@ if (localStorage.getItem("cityHistory") === null) {
         }
     }
   }
-console.log(JSON.parse(localStorage.getItem("cityHistory")))
 // get the weather info depending on the city name
 getWeather(cityName);
 // convert the time in the api to a 12h system
